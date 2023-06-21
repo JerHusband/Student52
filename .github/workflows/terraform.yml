@@ -5,7 +5,7 @@ push:
  pull_request:
  branches: [ "main" ]
 jobs:
- terraform:
+terraform:
  name: "Terraform"
  runs-on: self-hosted
  steps:
